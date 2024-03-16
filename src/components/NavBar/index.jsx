@@ -50,13 +50,6 @@ function NavBar() {
       },
     },
     {
-      label: "Gestionar",
-      command: () => {
-        navigate("/management-menu");
-        setVisible(false);
-      },
-    },
-    {
       label: "Contacto",
       command: () => {
         navigate("/contactus");
@@ -138,24 +131,7 @@ function NavBar() {
               </Link>
             </div>
           </li>
-          <li>
-            <div
-              className={
-                pathname == "/management-menu"
-                  ? "navBar-itemConteiner active"
-                  : "navBar-itemConteiner"
-              }
-            >
-              <Link to="/management-menu">
-                <div className="navBar-item">
-                  <span className="icon">
-                    <img src={ProductsIcon}></img>
-                  </span>{" "}
-                  <span className="title">Gestionar</span>
-                </div>
-              </Link>
-            </div>
-          </li>
+          
           <li>
             <div
               className={

@@ -39,12 +39,7 @@ function App() {
                     <Route path = "/contactus" element = {<Contact/>}/>
                     <Route path = "/remesas" element = {<Remesas/>}/>
                     <Route path = "/envios" element = {<Envios/>}/>
-                    <Route path = "/management-menu" element = {<ProtectedRoute><ManagementMenu/></ProtectedRoute>}/>
-                    <Route path = "/management/products" element = {<ProtectedRoute><ProductsManagement/></ProtectedRoute>}/>
-                    <Route path = "/management/oferts" element = {<ProtectedRoute><ManagementOferts/></ProtectedRoute>}/>
-                    <Route path = "/management/security" element = {<ProtectedRoute><ManagementSecurity/></ProtectedRoute>}/>
-                    <Route path = "/management/contact" element = {<ProtectedRoute><ManagementContact/></ProtectedRoute>}/>
-                    <Route path = "/login" element = {<Login/>}/>
+                    
                     <Route path = "/change-password" element = {<ProtectedRoute><ChangePassword/></ProtectedRoute>}/>
                     <Route path = "/envios" element = {<Envios/>}/>
                     <Route path = "/bye" element = {<Bye/>}/>
