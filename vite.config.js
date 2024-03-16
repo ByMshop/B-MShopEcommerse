@@ -10,8 +10,4 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   },
-  start: {
-    outDir: 'start'
-  }
-
 })
