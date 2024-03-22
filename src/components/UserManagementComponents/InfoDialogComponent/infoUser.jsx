@@ -26,13 +26,13 @@ function InfoUser({
     last_name: "",
     is_staff: true,
     is_active: true,
+    is_superuser: true,
     phone: "",
     country: "",
     state: "",
     address: "",
     zip_code: "",
     password: "",
-    country: "",
   });
   const [passwordModalStatus, setPasswordModalStatus] = useState(false);
   const { auth } = useContext(AuthenticationContext);
